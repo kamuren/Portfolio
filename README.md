@@ -53,13 +53,10 @@ Can run on all modern browsers
 * **Meta viewport** tag for mobile  
 * **Clean URL structure** with anchor links
 
-## **📝 Contact Form Setup**
-
-The contact form HTML is ready but needs backend processing:
-
 ## **🚀 Live Demo**
 
-This project is deployed  at:portfolio-koskei-13.vercel.app
+This project is hosted in vercel and can be accessed via this link:
+https://portfolio-koskei-13.vercel.app/
 
 ## **🔄 Version History**
 
