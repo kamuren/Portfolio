@@ -1,191 +1,196 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Head section: Includes metadata, title, and linked CSS -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ricky Koskei - Software Engineer</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Koskei | IT Support Specialist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
-<body>
+<body class="selection:bg-blue-500 selection:text-white">
 
-    <!-- Header section: Contains the site logo and navigation menu -->
-    <header>
-        <nav class="container">
-            <a href="#" class="logo">Ricky Koskei</a>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#interests">Interests</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="fixed w-full z-50 nav-blur border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+            <span class="text-xl font-extrabold tracking-tighter">RICKY KOSKEI<span class="text-blue-500">.</span></span>
+            <div class="space-x-8 hidden md:flex text-sm font-medium text-slate-400">
+                <a href="#about" class="hover:text-white transition">About</a>
+                <a href="#experience" class="hover:text-white transition">Experience</a>
+                <a href="#stack" class="hover:text-white transition">Stack</a>
+                <a href="mailto:kamurenricky254@gmail.com" class="text-white border border-slate-700 px-4 py-2 rounded-full hover:bg-white hover:text-black transition uppercase tracking-widest text-xs">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-    <!-- Main content section  -->
-    <main>
+    <section class="min-h-screen flex items-center px-6 pt-20">
+        <div class="max-w-4xl mx-auto">
+            <div class="inline-block px-3 py-1 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-xs font-bold mb-6 mono uppercase">
+                IT Support Specialist
+            </div>
+            <h1 class="text-5xl md:text-8xl font-extrabold leading-[1.1] mb-8 tracking-tight">
+                Ensuring reliability <br/> <span class="text-slate-500 text-6xl md:text-7xl">through technical excellence.</span>
+            </h1>
+            <p class="text-xl text-slate-400 max-w-2xl leading-relaxed mb-10">
+                Methodical problem-solving for enterprise environments. I bridge the gap between technical infrastructure and seamless user experiences.
+            </p>
+            <div class="flex gap-6 items-center">
+                <a href="#about" class="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-xl font-bold transition">About My Approach</a>
+                <a href="resources /Ricky-Kamuren-Koskei-Resume.pdf" class="border border-slate-700 hover:bg-slate-800 text-white px-8 py-4 rounded-xl font-bold transition flex items-center gap-2"><i class="fas fa-download text-sm"></i> Download CV</a>
+                <div class="h-px w-12 bg-slate-700"></div>
+                <a href="https://github.com/kamuren" class="text-slate-400 hover:text-white transition text-2xl"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ricky-koskei/" class="text-slate-400 hover:text-white transition text-2xl"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
 
-        <!-- About section: Brief introduction and profile image -->
-        <section id="about" class="fade-in">
-            <div class="container hero-content">
-                <div class="hero-text">
-                    <h1>My name is Ricky</h1>
-                    <p>I am a passionate software engineer who combines creativity with technology to bring innovative ideas into reality. With a strong foundation in multiple programming languages, I specialize in creating websites and applications that are not only beautiful and user-friendly but also solve real-world problems.</p>
-                    <a href="https://drive.google.com/file/d/1BcX3cgyK7oBDORp7FNoSmnrXr8Y5wEN3/view?usp=sharing" class="btn" download>Download CV</a>
-                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
-                </div>
-                <div class="hero-image-container">
-                    <img src="images/_SUN4567.jpg" alt="A portrait of Ricky Koskei" class="hero-image">
+    <section id="about" class="py-24 px-6 border-t border-slate-800/50">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-16 items-start">
+            <div class="flex-1">
+                <h2 class="text-xs font-bold text-blue-500 tracking-[0.3em] uppercase mb-4">The Professional</h2>
+                <h3 class="text-4xl font-extrabold mb-8 leading-tight">I bridge the gap between complex infrastructure and the people who use it.</h3>
+                
+                <div class="space-y-6 text-slate-400 text-lg leading-relaxed">
+                    <p>
+                        I am an IT Support Specialist based in Nairobi, Kenya, with a focus on building and maintaining resilient enterprise environments. While I hold a BSc in Software Engineering, my true passion lies in <strong>modern IT operations</strong>—untangling technical hurdles and ensuring zero-friction user experiences.
+                    </p>
+                    <p>
+                        I don’t just close tickets; I solve the underlying problems that cause them. From managing Active Directory to hands-on remote troubleshooting, I thrive in the "detective work" of IT. My goal is always to minimize downtime through a methodical, root-cause-first approach.
+                    </p>
                 </div>
             </div>
-        </section>
 
-        <!-- Education section: Academic background and qualifications -->
-        <section id="education" class="fade-in">
-            <div class="container">
-                <h2 class="section-title">Education</h2>
-                <div class="card education-card">
-                    <h4>Bachelor of Science in Software Engineering</h4>
-                    <p><strong>Multimedia University of Kenya</strong> | 2020 - 2024</p>
-                    <p>Graduated with comprehensive knowledge in programming fundamentals, software design principles, database management, and modern development practices.</p>
-                </div>
+            <div class="md:w-1/3 bg-slate-800/50 border border-slate-700 p-8 rounded-3xl">
+                <h4 class="text-white font-bold mb-6 mono text-sm uppercase tracking-widest">Quick Facts</h4>
+                <ul class="space-y-6">
+                    
+                    <li class="flex gap-4 items-start">
+                        <div class="p-2 bg-blue-500/10 rounded-lg"><i class="fas fa-check-circle text-blue-400 mt-1"></i></div>
+                        <div>
+                            <p class="text-white text-sm font-bold">Focus</p>
+                            <p class="text-slate-400 text-xs mt-1">IT Ops & System Administration</p>
+                        </div>
+                    </li>
+
+                    <li class="flex gap-4 items-start">
+                        <div class="p-2 bg-blue-500/10 rounded-lg"><i class="fas fa-graduation-cap text-blue-400"></i></div>
+                        <div>
+                            <p class="text-white text-sm font-bold">Education</p>
+                            <p class="text-slate-400 text-xs mt-1">BSc Software Engineering</p>
+                        </div>
+                    </li>
+
+                    <li class="flex gap-4 items-start">
+                        <div class="p-2 bg-blue-500/10 rounded-lg"><i class="fas fa-bolt text-blue-400"></i></div>
+                        <div>
+                            <p class="text-white text-sm font-bold">Philosophy</p>
+                            <p class="text-slate-400 text-xs mt-1">Root-cause over temporary fixes.</p>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Skills section: Lists programming languages and skills -->
-        <section id="skills" class="fade-in">
-            <div class="container">
-                <h2 class="section-title">Programming Languages</h2>
-                <div class="skills-grid">
-                    <div class="card skill-item">
-                        <h4>JavaScript</h4>
-                        <p>Frontend and backend development</p>
-                    </div>
-                    <div class="card skill-item">
-                        <h4>Python</h4>
-                        <p>AI/ML development and automation</p>
-                    </div>
-                    <div class="card skill-item">
-                        <h4>HTML & CSS</h4>
-                        <p>Web development and design</p>
-                    </div>
-                    <div class="card skill-item">
-                        <h4>SQL</h4>
-                        <p>Database management</p>
-                    </div>
+    <section id="experience" class="py-24 px-6 bg-slate-900/30">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-xs font-bold text-blue-500 tracking-[0.3em] uppercase mb-12">Professional Experience</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <div class="project-card bg-slate-800/50 border border-slate-700 p-8 rounded-3xl">
+                    <span class="mono text-xs text-blue-400 mb-4 block">2024 — 2025</span>
+                    <h3 class="text-2xl font-bold mb-2">IT Support Intern</h3>
+                    <p class="text-blue-500 font-bold mb-4">Posta Kenya</p>
+                    <p class="text-slate-400 mb-6">Delivered Tier 1 & 2 support for Windows environments, Active Directory management, and network troubleshooting to ensure maximum uptime.</p>
                 </div>
-            </div>
-        </section>
 
-        <!-- Interests section: Highlights personal and professional interests -->
-        <section id="interests" class="fade-in">
-            <div class="container">
-                <h2 class="section-title">Interests</h2>
-                <div class="card interest-card">
-                    <h4>LLM Training & AI Development</h4>
-                    <p>I enjoy training AI Large Language Models (LLMs) with a focus on making artificial intelligence safe and user-friendly. My passion lies in developing AI systems that can assist and enhance human capabilities while maintaining ethical standards and reliability.</p>
+                <div class="project-card bg-slate-800/50 border border-slate-700 p-8 rounded-3xl">
+                    <span class="mono text-xs text-purple-400 mb-4 block">2022</span>
+                    <h3 class="text-2xl font-bold mb-2">Software Dev Intern</h3>
+                    <p class="text-purple-500 font-bold mb-4">Macangira Africa</p>
+                    <p class="text-slate-400 mb-6">Assisted production software deployment and support.</p>
                 </div>
-            </div>
-        </section>
 
-        <!-- Projects section: Showcases completed or ongoing projects -->
-        <section id="projects" class="fade-in">
-            <div class="container">
-                <h2 class="section-title">Projects</h2>
-                <div class="projects-grid">
-                    <div class="card project-card">
-                        <h4>E-Commerce Website</h4>
-                        <p> A E-bicycle selling website built using html/css and JavaScript</p>
-                        <div class="project-links">
-                            <a href="#" class="btn">View Project</a>
-                            <a href="#" class="btn btn-secondary">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="stack" class="py-24 px-6 relative overflow-hidden">
+        <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-96 h-96 bg-blue-500/10 blur-[120px] rounded-full"></div>
+        
+        <div class="max-w-6xl mx-auto">
+            <div class="mb-16">
+                <h2 class="text-xs font-bold text-blue-500 tracking-[0.3em] uppercase mb-4">Tech Inventory</h2>
+                <h3 class="text-4xl md:text-5xl font-extrabold italic tracking-tight">The <span class="text-slate-500">Toolbox.</span></h3>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="group relative p-8 rounded-3xl bg-slate-800/30 border border-slate-800 hover:border-blue-500/50 transition-all duration-500 backdrop-blur-sm">
+                    <div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity rounded-3xl"></div>
+                    <div class="relative z-10">
+                        <div class="w-12 h-12 rounded-2xl bg-blue-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fas fa-headset text-blue-400 text-xl"></i>
+                        </div>
+                        <h4 class="font-bold text-blue-400 mb-6 mono text-sm uppercase">IT Administration</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-slate-900 border border-slate-700 rounded-full text-xs text-slate-300 font-medium">ITSM / GLPI</span>
+                            <span class="px-3 py-1 bg-slate-900 border border-slate-700 rounded-full text-xs text-slate-300 font-medium">Remote Support</span>
+                            <span class="px-3 py-1 bg-slate-900 border border-slate-700 rounded-full text-xs text-slate-300 font-medium">IT Asset Management</span>
+                            <span class="px-3 py-1 bg-slate-900 border border-slate-700 rounded-full text-xs text-slate-300 font-medium">Microsoft 365</span>
+
                         </div>
                     </div>
-                    <div class="card project-card">
-                        <h4>Portfolio</h4>
-                        <p>Intuitive, Mobile-responsive personal portfolio website built using HTML and CSS.</p>
-                        <div class="project-links">
-                            <a href="#" class="btn">View Project</a>
-                            <a href="#" class="btn btn-secondary">GitHub</a>
-                        </div>
-                    </div>
                 </div>
-            </div>
-        </section>
 
-        <!-- Contact section: Contact information and a message form -->
-        <section id="contact" class="fade-in">
-            <div class="container">
-                <h2 class="section-title">Contact Me</h2>
-                <div class="contact-content">
-                    <div class="contact-info">
-                        <div class="card contact-item">
-                            <h4>Email</h4>
-                            <a href="kamurenricky254@gmail.com">kamurenricky254@gmail.com</a>
+                <div class="group relative p-8 rounded-3xl bg-slate-800/30 border border-slate-800 hover:border-purple-500/50 transition-all duration-500 backdrop-blur-sm">
+                    <div class="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity rounded-3xl"></div>
+                    <div class="relative z-10">
+                        <div class="w-12 h-12 rounded-2xl bg-purple-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fas fa-server text-purple-400 text-xl"></i>
                         </div>
-                        <div class="card contact-item">
-                            <h4>Phone</h4>
-                            <a href="tel:+254700000000">+254 110392967</a>
+                        <h4 class="text-white font-bold mb-6 mono text-sm uppercase tracking-widest">Systems</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-slate-900 border border-slate-700 rounded-full text-xs text-slate-300 font-medium">Linux </span>
+                            <span class="px-3 py-1 bg-slate-900 border border-slate-700 rounded-full text-xs text-slate-300 font-medium">Windows </span>
+                            <span class="px-3 py-1 bg-slate-900 border border-slate-700 rounded-full text-xs text-slate-300 font-medium">Active Directory</span>
+                            <span class="px-3 py-1 bg-slate-900 border border-slate-700 rounded-full text-xs text-slate-300 font-medium">Log Analysis</span>
+                            
                         </div>
-                        <div class="card contact-item">
-                            <h4>Location</h4>
-                            <p>Nairobi, Kenya</p>
-                        </div>
-                    </div>
-                    <div class="contact-form-section">
-                        <h3>Send me a message</h3>
-                        <form class="contact-form" action="#" method="POST">
-                            <div class="form-group">
-                                <input type="text" name="name" placeholder="Your Name" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" name="email" placeholder="Your Email" required>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="subject" placeholder="Subject" required>
-                            </div>
-                            <div class="form-group">
-                                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                            </div>
-                            <button type="submit" class="btn">Send Message</button>
-                        </form>
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
-    <!-- Main content section ends -->
 
-    <!-- Footer section: Quick links and social media connections -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Quick Navigation</h4>
-                    <div class="footer-links">
-                        <a href="#about">About</a>
-                        <a href="#skills">Skills</a>
-                        <a href="#education">Education</a>
-                        <a href="#interests">Interests</a>
-                        <a href="#projects">Projects</a>
-                        <a href="#contact">Contact</a>
+                <div class="group relative p-8 rounded-3xl bg-slate-800/30 border border-slate-800 hover:border-emerald-500/50 transition-all duration-500 backdrop-blur-sm">
+                    <div class="absolute inset-0 bg-gradient-to-br from-emerald-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity rounded-3xl"></div>
+                    <div class="relative z-10">
+                        <div class="w-12 h-12 rounded-2xl bg-emerald-500/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fas fa-cloud text-emerald-400 text-xl"></i>
+                        </div>
+                        <h4 class="text-white font-bold mb-6 mono text-sm uppercase tracking-widest">Cloud & Dev</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-slate-900 border border-slate-700 rounded-full text-xs text-slate-300 font-medium">AWS / Azure</span>
+                            <span class="px-3 py-1 bg-slate-900 border border-slate-700 rounded-full text-xs text-slate-300 font-medium">Virtualization</span>
+                            <span class="px-3 py-1 bg-slate-900 border border-slate-700 rounded-full text-xs text-slate-300 font-medium">Git </span>
+                            <span class="px-3 py-1 bg-slate-900 border border-slate-700 rounded-full text-xs text-slate-300 font-medium">HTML/CSS </span>
+                
+
+                        </div>
                     </div>
                 </div>
-                <div class="footer-section">
-                    <h4>Connect With Me</h4>
-                    <div class="social-links">
-                        <a href="#" class="social-link" aria-label="LinkedIn">Li</a>
-                        <a href="#" class="social-link" aria-label="GitHub">Gh</a>
-                        <a href="#" class="social-link" aria-label="Email">@</a>
-                    </div>
-                </div>
+
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Ricky Koskei. All rights reserved.</p>
+        </div>
+    </section>
+
+    <footer class="py-20 px-6 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8 text-slate-500">
+            <p class="mono text-xs uppercase">&copy; 2025 Koskei</p>
+            <div class="flex gap-8 text-xs font-bold uppercase tracking-widest">
+                <a href="https://www.linkedin.com/in/ricky-koskei/" class="hover:text-white transition">LinkedIn</a>
+                <a href="https://www.github.com/kamuren" class="hover:text-white transition">GitHub</a>
+                <a href="mailto:kamurenricky254@gmail.com" class="hover:text-white transition">Contact</a>
             </div>
         </div>
     </footer>
+
 </body>
 </html>
