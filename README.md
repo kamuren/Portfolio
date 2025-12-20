@@ -34,7 +34,7 @@ Then open http://localhost:8000 in your browser.
 Repository structure
 - `index.html` — main HTML for the portfolio
 - `style.css` — site styling
-- `resources/` — images and static assets
+- `resources/` —  assets
 - `LICENSE` — license for repository content
 
 
